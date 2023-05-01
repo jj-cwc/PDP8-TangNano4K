@@ -1,0 +1,11 @@
+-d C:\Users\jeff\OneDrive\Documents\Gowin\PDP8-TangNano4K\terminal\impl\gwsynthesis\terminal.vg
+-p GW1NSR-4C-QFN48P-6
+-pn GW1NSR-LV4CQN48PC6/I5
+-cst C:\Users\jeff\OneDrive\Documents\Gowin\PDP8-TangNano4K\terminal\src\terminal.cst
+-cfg C:\Users\jeff\OneDrive\Documents\Gowin\PDP8-TangNano4K\terminal\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-route_maxfan 23

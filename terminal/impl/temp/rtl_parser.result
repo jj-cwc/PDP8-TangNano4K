@@ -1,0 +1,86 @@
+[
+ {
+  "InstFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/terminal_top.v",
+  "InstLine" : 1,
+  "InstName" : "terminal_top",
+  "ModuleFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/terminal_top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "terminal_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/terminal_top.v",
+    "InstLine" : 11,
+    "InstName" : "clk_gen",
+    "ModuleFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/clock_generator/clock_generator.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "clock_generator"
+   },
+   {
+    "InstFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/terminal_top.v",
+    "InstLine" : 17,
+    "InstName" : "clk_div",
+    "ModuleFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/clock_div5/clock_div5.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "clock_div5"
+   },
+   {
+    "InstFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/terminal_top.v",
+    "InstLine" : 23,
+    "InstName" : "terminal",
+    "ModuleFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/svo/hdmi_term.v",
+    "ModuleLine" : 23,
+    "ModuleName" : "hdmi_term",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/svo/hdmi_term.v",
+      "InstLine" : 75,
+      "InstName" : "svo_tcard",
+      "ModuleFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/svo/svo_tcard.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tcard"
+     },
+     {
+      "InstFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/svo/hdmi_term.v",
+      "InstLine" : 85,
+      "InstName" : "svo_enc",
+      "ModuleFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/svo/svo_enc.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_enc"
+     },
+     {
+      "InstFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/svo/hdmi_term.v",
+      "InstLine" : 102,
+      "InstName" : "svo_tmds_0",
+      "ModuleFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/svo/svo_tmds.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tmds"
+     },
+     {
+      "InstFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/svo/hdmi_term.v",
+      "InstLine" : 112,
+      "InstName" : "svo_tmds_1",
+      "ModuleFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/svo/svo_tmds.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tmds"
+     },
+     {
+      "InstFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/svo/hdmi_term.v",
+      "InstLine" : 122,
+      "InstName" : "svo_tmds_2",
+      "ModuleFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/svo/svo_tmds.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "svo_tmds"
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/terminal_top.v",
+    "InstLine" : 39,
+    "InstName" : "u_Reset_Sync",
+    "ModuleFile" : "C:/Users/jeff/OneDrive/Documents/Gowin/PDP8-TangNano4K/terminal/src/terminal_top.v",
+    "ModuleLine" : 49,
+    "ModuleName" : "Reset_Sync"
+   }
+  ]
+ }
+]

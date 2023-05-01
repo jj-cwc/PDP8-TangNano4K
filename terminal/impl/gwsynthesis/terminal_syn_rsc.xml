@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="terminal_top">
+    <SubModule name="clk_gen"/>
+    <SubModule name="clk_div"/>
+    <SubModule name="terminal" Register="4" Lut="1">
+        <SubModule name="svo_tcard" Register="145" Lut="315" Bsram="1"/>
+        <SubModule name="svo_enc" Register="367" Alu="6" Lut="275"/>
+        <SubModule name="svo_tmds_0" Register="38" Alu="35" Lut="105"/>
+        <SubModule name="svo_tmds_1" Register="38" Alu="35" Lut="102"/>
+        <SubModule name="svo_tmds_2" Register="38" Alu="35" Lut="105"/>
+    </SubModule>
+    <SubModule name="u_Reset_Sync" Register="4" Alu="4" Lut="2"/>
+</Module>

@@ -1,0 +1,18 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NSR-4C" pn="GW1NSR-LV4CQN48PC6/I5">gw1nsr4c-000</Device>
+    <FileList>
+        <File path="src/clock_div5/clock_div5.v" type="file.verilog" enable="1"/>
+        <File path="src/clock_generator/clock_generator.v" type="file.verilog" enable="1"/>
+        <File path="src/svo/hdmi_term.v" type="file.verilog" enable="1"/>
+        <File path="src/svo/svo_defines.vh" type="file.verilog" enable="1"/>
+        <File path="src/svo/svo_enc.v" type="file.verilog" enable="1"/>
+        <File path="src/svo/svo_tcard.v" type="file.verilog" enable="1"/>
+        <File path="src/svo/svo_tmds.v" type="file.verilog" enable="1"/>
+        <File path="src/terminal_top.v" type="file.verilog" enable="1"/>
+        <File path="src/terminal.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
